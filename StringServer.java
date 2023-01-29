@@ -21,6 +21,6 @@ class StringServer {
 
         int port = Integer.parseInt(args[0]);
 
-        Server.start(port, new SearchHandler());
+        Server.start(port, new Handler());
     }
 }
